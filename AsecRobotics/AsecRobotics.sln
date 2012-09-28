@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiFly", "WiFly\WiFly.csproj", "{3FB1C909-34DF-4E39-BA45-6D7DB21FF970}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotControlProtocol - .NET 4.0", "RobotControlProtocol - .NET 4.0\RobotControlProtocol - .NET 4.0.csproj", "{91632439-E948-4F85-A7AA-53F1602F8935}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotControlProtocol - .NET Micro 4.1", "RobotControlProtocol - .NET Micro 4.1\RobotControlProtocol - .NET Micro 4.1.csproj", "{87CC5E5C-129B-41D1-B31E-951703C10870}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsecRobotics", "AsecRobotics\AsecRobotics.csproj", "{19DE6DE9-2C63-4CB8-816A-1531393D5208}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FB1C909-34DF-4E39-BA45-6D7DB21FF970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB1C909-34DF-4E39-BA45-6D7DB21FF970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB1C909-34DF-4E39-BA45-6D7DB21FF970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB1C909-34DF-4E39-BA45-6D7DB21FF970}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91632439-E948-4F85-A7AA-53F1602F8935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91632439-E948-4F85-A7AA-53F1602F8935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91632439-E948-4F85-A7AA-53F1602F8935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91632439-E948-4F85-A7AA-53F1602F8935}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87CC5E5C-129B-41D1-B31E-951703C10870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87CC5E5C-129B-41D1-B31E-951703C10870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87CC5E5C-129B-41D1-B31E-951703C10870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87CC5E5C-129B-41D1-B31E-951703C10870}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19DE6DE9-2C63-4CB8-816A-1531393D5208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19DE6DE9-2C63-4CB8-816A-1531393D5208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19DE6DE9-2C63-4CB8-816A-1531393D5208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19DE6DE9-2C63-4CB8-816A-1531393D5208}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
