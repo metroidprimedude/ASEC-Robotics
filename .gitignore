@@ -26,6 +26,7 @@
 *.sql
 *.sqlite0
 *.sdf
+*.opensdf
 
 # OS generated files #
 ######################

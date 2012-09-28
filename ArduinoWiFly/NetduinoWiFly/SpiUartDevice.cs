@@ -185,6 +185,16 @@ namespace NetduinoWiFly
 			WriteRegister(THR, value);
 		}
 
+		public void Write(short value)
+		{
+			byte high = (byte)(value >> 8);
+			byte low = (byte)value;
+
+			Write(new[] { high, low });
+		}
+
+		public void Write(ushort value) { Write((short)value); }
+
 		public void Write(byte[] data)
 		{
 			Device.Select();
@@ -211,6 +221,10 @@ namespace NetduinoWiFly
 		{
 			Write(Encoding.UTF8.GetBytes(value));
 		}
+
+		public void WriteLine() { WriteLine(String.Empty); }
+
+		public void WriteLine(string value) { Write(value + "\r\n"); }
 		#endregion
 	}
 

@@ -33,17 +33,17 @@ namespace NetduinoWiFly
 		#region Methods
 		private byte Available(bool raw)
 		{
-			byte availablBytes = (byte)((RX_BUFFER_SIZE + _rxBuffer.Head - _rxBuffer.Tail) % RX_BUFFER_SIZE);
+			byte availableBytes = (byte)((RX_BUFFER_SIZE + _rxBuffer.Head - _rxBuffer.Tail) % RX_BUFFER_SIZE);
 
 			if(!raw)
 			{
-				if (availablBytes > _bytesMatched)
-					availablBytes -= _bytesMatched;
+				if (availableBytes > _bytesMatched)
+					availableBytes -= _bytesMatched;
 				else
-					availablBytes = 0;
+					availableBytes = 0;
 			}
 
-			return availablBytes;
+			return availableBytes;
 		}
 
 		public byte Available()

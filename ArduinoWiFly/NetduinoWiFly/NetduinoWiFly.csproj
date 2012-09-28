@@ -34,8 +34,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SpiDevice.cs" />
     <Compile Include="SpiUartDevice.cs" />
+    <Compile Include="WiFlyClient.cs" />
     <Compile Include="WiFlyDevice.cs" />
     <Compile Include="WiFlyException.cs" />
+    <Compile Include="WiFlyServer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.SPOT.Hardware" />
